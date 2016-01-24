@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/iv_picshow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/bulletscreen_icon_prevue"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_picshow"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv_galaryname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="所有图片"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_picnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1212张"
+            android:textSize="10sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#444"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_galaryselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/check_disable"
+        />
+
+
+</RelativeLayout>

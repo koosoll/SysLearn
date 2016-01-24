@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SysLearn.iml" filepath="$PROJECT_DIR$/SysLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/syscamra/syscamra.iml" filepath="$PROJECT_DIR$/syscamra/syscamra.iml" />
+    </modules>
+  </component>
+</project>
